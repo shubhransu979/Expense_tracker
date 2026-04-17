@@ -1,13 +1,24 @@
 # Smart Expense Tracker
 
-A simple Python CLI application to track daily expenses, analyze spending by category, and generate monthly reports with charts.
+A simple Python CLI app to track daily expenses, analyze spending by category, and generate monthly reports with Matplotlib charts.
 
 ## Features
 - Add and view expenses
 - Category-wise analysis
 - Monthly reports
-- Data stored in CSV
+- CSV data storage
 - Charts using Matplotlib
+
+## Screenshots
+
+### Category Chart
+![Category](chart_categories.png)
+
+### Monthly Chart
+![Monthly](chart_monthly.png)
+
+### Pie Chart
+![Pie](chart_pie.png)
 
 ## Tech Stack
 - Python
@@ -15,15 +26,13 @@ A simple Python CLI application to track daily expenses, analyze spending by cat
 - Matplotlib
 
 ## How to Run
-1. Install matplotlib:
-   pip install matplotlib
-
-2. Run the project:
-   python main.py
+pip install matplotlib  
+python Expense_tracker.py
 
 ## Project Structure
-- main.py
+- Expense_tracker.py
 - expenses.csv
+- chart_images
 
 ## Author
-Shubhransu Sekhar Pal
+Shubhransu Sekhar
